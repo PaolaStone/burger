@@ -9,3 +9,11 @@ This is a restaurant app that lets users input the names of burgers they'd like 
 * Your app will store every burger in a database, whether devoured or not.
 
 ![App screenshot](/public/assets/img/page.PNG)
+
+
+## Go to the app by clicking the link below
+
+
+
+## Technology
+This project was built with jQuery, node.js, express, handlebars, and Bootstrap
