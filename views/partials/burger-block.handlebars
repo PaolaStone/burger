@@ -1,7 +1,13 @@
-<li>
+<table class="table">
+<tr>
 	{{burger_name}}
 
-	<button class="change-devoured" data-id="{{id}}" data-newDevoured="{{devoured}}">
-		{{#if devoured}}Devour me!{{else}}Devoured!{{/if}}
+	<button class="change-devoured btn btn-warning" style="float: right;" data-id="{{id}}" data-newDevoured="{{devoured}}">
+		{{#if devoured}}
+			Devour me!
+			{{else}}
+			Devoured
+		{{/if}}
 	</button>
-</li>
+</tr>
+</table>
